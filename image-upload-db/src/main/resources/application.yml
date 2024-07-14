@@ -1,0 +1,15 @@
+
+server:
+  port: 8080
+
+spring:
+  application:
+    name: image-upload-db
+  datasource:
+    url: jdbc:mysql://localhost:3306/imageDB
+    username: root
+    password: s3cret
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
